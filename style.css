@@ -1,0 +1,268 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    /* padding:  0 4rem 0 4rem; */
+    background-color: rgba(53, 69, 109, 0.9);
+    color: white;
+    position: fixed;
+    z-index: 1;
+    align-items: center;
+}
+
+#header div {
+    display: flex;
+    align-items: center;
+
+}
+
+a {
+    padding: 1.8rem;
+    text-decoration: none;
+    color: white;
+    font-size: 1.4rem;
+}
+
+#header h2 {
+    text-transform: uppercase;
+    /* align-items: center; */
+    justify-content: center;
+    margin-left: 2rem;
+}
+
+#baricon {
+    font-weight: 600;
+    display: none !important;
+}
+
+#hero img {
+    width: 17rem;
+
+}
+
+#hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    position: relative;
+    background-color: rgb(12, 205, 205);
+}
+
+#hero h1 {
+    font-size: 4rem;
+    padding: 0;
+    margin: 1rem;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 4rem;
+    padding: 0;
+    margin-bottom: 3rem;
+    height: 2rem;
+}
+
+#Portfolio {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    /* flex-direction: column; */
+}
+
+#Portfolio img {
+    height: 20rem;
+    display: flex;
+    justify-content: center;
+
+    align-items: center;
+    border-radius: 2rem;
+    padding: 1rem;
+}
+
+.texth1 {
+    display: flex;
+    justify-content: center;
+    font-size: 3.5rem;
+    /* margin-top: 5rem; */
+    margin-bottom: 0;
+}
+
+#para {
+    display: flex;
+    margin-left: 17rem;
+    font-size: 1.4rem;
+    width: 60%;
+    /* text-align: center; */
+    /* justify-content: space-evenly; */
+}
+
+#About {
+    background-color: rgb(12, 205, 205);
+    display: flex;
+    flex-direction: column;
+    margin-top: 10rem;
+}
+
+#About button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+    font-size: 1rem;
+    height: 1.5rem;
+    width: 17rem;
+    padding: 2rem;
+    margin: 2rem 2rem 5rem 37rem;
+    border-radius: 1rem;
+    background-color: transparent;
+}
+
+#Contact form input {
+    width: 50vh;
+    height: 2rem;
+}
+
+#Contact {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem 2rem;
+    margin-bottom: 4rem;
+}
+
+i {
+    font-size: 3rem;
+}
+
+textarea,
+input {
+    padding: 0.4rem;
+    margin: 1rem;
+}
+
+
+
+form {
+    /* width: 30rem; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* margin: 2rem; */
+}
+
+footer {
+    background-color: black;
+    color: white;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#locationsection{
+    display: flex;
+    justify-content: space-evenly;
+    height: 15rem;
+    align-items: center;
+    background-color: rgba(53, 69, 109, 0.9);
+    font-size: 1.4rem;
+}
+.downlo, .uplo{
+    width: 18rem;
+}
+
+@media screen and (max-width:426px) {
+    a {
+        display: none;
+
+    }
+    #header i{
+        display: flex !important;
+    }
+
+
+    i {
+        font-weight: 600;
+    }
+
+    #Portfolio {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    #hero img{
+        width: 13rem;
+    }
+    h1{
+        font-size: 3rem !important;
+    }
+    #hero h1{
+        text-align: center;
+    }
+
+    #header h2 {
+        margin: 0;
+    }
+
+    #para {
+        flex-direction: column;
+        margin: 0;
+        padding: 1rem;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+
+    }
+
+    #About button {
+
+        height: 0.6rem;
+        width: 12rem;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 2rem;
+        margin-left: 7rem;
+    }
+
+    #About {
+        width: 100%;
+    }
+
+    #header {
+        width: 100%;
+    }
+
+    #Portfolio img {
+        width: 90%;
+
+    }
+
+
+    #Contact h1 {
+        font-size: 2.5rem;
+        margin-left: 2rem;
+    }
+
+
+    #locationsection{
+        flex-direction: column;
+        height: 35rem;
+        align-items: center;
+        text-align: center;
+    }
+
+}
